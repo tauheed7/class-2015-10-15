@@ -11,13 +11,14 @@ library(tidyverse)
 library(knitr)
 library(readr)
 library(readxl)
+library(janitor)
 ```
 
 
 
 ```{r}
 f_2017 <- read_excel("Fall 2017 enrollment.xlsx")
-f_2018 <- read_excel("Fall 2018 enrollment.xlsx")
+f_2018 <- read_excel("Fall 2018 enrollment.xlsx", skip = 2)
 f_2016 <- read_excel("copy_of_class_enrollment_summary_by_term_10.06.2016.xlsx")
 f_2015 <- read_excel("CourseEnrollmentStatistics.xlsx")
 ```
