@@ -1,0 +1,29 @@
+---
+title: "enrollment"
+author: "Tauheed"
+date: "October 15, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+library(readr)
+library(readxl)
+```
+
+
+
+```{r}
+f_2017 <- read_excel("Fall 2017 enrollment.xlsx")
+f_2018 <- read_excel("Fall 2018 enrollment.xlsx")
+f_2016 <- read_excel("copy_of_class_enrollment_summary_by_term_10.06.2016.xlsx")
+f_2015 <- read_excel("CourseEnrollmentStatistics.xlsx")
+```
+
+
+
+```{r}
+```
+
